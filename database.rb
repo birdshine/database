@@ -329,6 +329,7 @@ def search_entry
 	    puts ""
 		search_tag(tag_array)
 		tag_control += 1
+		search_control += 1
 	  else
 	    tag_array << tag_input.to_sym
 	  end
@@ -344,6 +345,7 @@ def search_entry
 		puts ""
 		search_tag(tag_array)
 		tag_control += 1
+		search_control += 1
 	  else
 	    tag_array << tag_input.to_sym
 	  end
